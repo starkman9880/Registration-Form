@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Register Form Start</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <h1>Registration Form</h1>
+    <hr>
+    <h2><b>Fill out your information below</b></h2>
+    <form>
+      <label name="firstName"> First Name:</label><br>
+      <input type="text" placeholder="John">
+      <br>
+      <br>
+      <label name="lastName"> Last Name:</label><br>
+      <input type="text" placeholder="Doe">
+      <br>
+      <br>
+      <label>Email</label><br>
+      <input type="text" placeholder="john.doe@gmail.com">
+      <br>
+      <br>
+      <label>Telephone</label><br>
+      <input 
+             id="attributes" 
+             type="text" 
+             size="3" 
+             maxlength="3" 
+             min="0" 
+             max="9"
+             placeholder="111">-
+       <input 
+             id="attributes" 
+             type="text"
+             size="3" 
+             maxlength="3" 
+             min="0" 
+             max="9"
+             placeholder="234"
+              >-
+       <input 
+             id="attributes" 
+             type="text" 
+             size="3" 
+             maxlength="4" 
+             min="0" 
+             max="9"
+             placeholder="5678">
+      <br>
+      <br>
+      <label>Date of Birth</label><br>
+      <input type="date">
+      <br>
+      <br>
+      <label>Gender</label><br>
+      <label for="male">
+         <input name="gender id="male type="radio">Male
+      </label>
+      <label for="female">
+         <input name="gender id="female type="radio">Female
+      </label>
+       <label for="nonbinary">
+         <input name="gender id="nonbinary type="radio">Non-Binary
+      </label>
+      <br>
+      <br>
+      <label>Veteran?</label><br>
+      <label for="male">
+         <input name="gender id="male type="radio">Yes
+      </label>
+      <label for="female">
+         <input name="gender id="female type="radio">No
+      </label>
+      <br>
+      <br>
+      <label>Household size</label><br>
+      <input type="text" placeholder="Married or Single?">
+      <br>
+      <br>
+      <label>Annual Income</label><br>
+      <select>
+        <option>-</option>
+        <option>Less than $25K</option>
+        <option>$25K-$75K</option>
+        <option>$75K-$125K</option>
+        <option>Over $125K</option>
+      </select>
+      <br>
+      <br>
+      <label>Message</label><br>
+      <textarea name="message" rows="8" cols="40"> Enter your details here.
+      </textarea>  
+      <br>
+      <br>
+      <label>Password</label><br>
+      <input type="password" placeholder="Password">
+      <br>
+      <br>
+      <label>Confirm Password</label><br>
+      <input type="password" placeholder="Confirm password">
+      <br>
+      <br>
+      <label>
+        <input type="checkbox">
+        By signing up, you agree to the <a href="">Terms & Conditions.</a></label><br>
+      <br>
+      <br>
+      <input type="Submit">
+      
+    </form>
+  </body>
+  
+  
